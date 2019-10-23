@@ -13,12 +13,10 @@ int countingValleys(int n, string s) {
                 ++mountains;
             }
         }
-
         else
             ++level;
     }
     return mountains;
-
 }
 
 int main2()
